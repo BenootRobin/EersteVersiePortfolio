@@ -2,14 +2,6 @@ body{
     background-color:#F5F5F5;
     font-family: sans-serif;
 }
-/* amatic-sc-regular - latin */
-@font-face {
-    font-family: 'Amatic SC';
-    font-style: normal;
-    font-weight: 400;
-    /*src: local('Amatic SC Regular'), local('AmaticSC-Regular');*/
-    src: url("fonts");
-}
 
 header, main, footer {
     background: white;
