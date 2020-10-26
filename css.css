@@ -154,7 +154,7 @@ fieldset textarea {
 input[type="submit"] {
     width: auto;
     min-width: auto;
-    vertical-align: center;
+    margin-left: 325px;
 }
 
 label {
