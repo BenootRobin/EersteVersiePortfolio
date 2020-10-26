@@ -1,6 +1,8 @@
 body{
     background-color:#F5F5F5;
     font-family: sans-serif;
+    max-width: 1800px;
+    margin: 40px auto;
 }
 
 header, main, footer {
@@ -122,4 +124,39 @@ footer {
     padding-bottom:20px;
     padding-right: 20px;
     text-align:right;
+}
+
+fieldset {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+fieldset legend {
+    color: black;
+}
+
+label,
+input,
+select {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+fieldset label,
+fieldset input,
+fieldset select,
+fieldset textarea {
+    min-width: 320px;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+    width: auto;
+    min-width: auto;
+    vertical-align: center;
+}
+
+label {
+    text-align: right;
 }
